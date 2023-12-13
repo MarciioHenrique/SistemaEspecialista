@@ -1,0 +1,11 @@
+tela 1
+ front: título, formulario com componenete de input, delimitar as opções, similaridade minima, botão buscar similares
+ back: função que recebe um DTO do caso e retorna os casos similares/que a similaridade seja maior que a similaridade minima (cada caso tem ID, praga e similaridade)
+
+tela 2
+ front: caso problema, tabela com os casos similares (retorno da função), caso selecionado da tabela, botão anterior (volta tela 1), botão próximo (tela 3)
+ back: função que recebe um id e retorna um caso
+
+tela 3 
+ front: mostra o caso problema, o caso objetivo selecionado na tela anterior, uma seleção da praga (já vem definida com a praga do caso objetivo), um botão anterior (tela 2), um botão aceitar (cadastra e volta pra tela 1)
+ back: função que cadastra um caso no bd com a sua praga definida.
